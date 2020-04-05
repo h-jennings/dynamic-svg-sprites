@@ -1,6 +1,14 @@
+:host[theme-variant="dark"] {
+  .wrapper {
+    background-color: #333333;
+  }
+}
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 100px);
   column-gap: 20px;
   row-gap: 20px;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
 }

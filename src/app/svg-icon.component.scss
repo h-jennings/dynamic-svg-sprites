@@ -1,9 +1,12 @@
+.icon__container {
+  display: flex;
+}
 [theme-variant="dark"] {
   .icon {
     --primary-color: rgba(146, 146, 146, 0.747);
 
     &:hover {
-      --primary-color: #222222;
+      --primary-color: #ffffff;
     }
   }
 
@@ -17,6 +20,8 @@
 .icon {
   width: 100%;
   height: auto;
+  max-height: 85px;
+  cursor: pointer;
   --primary-color: #bada55;
 
   &:hover {
